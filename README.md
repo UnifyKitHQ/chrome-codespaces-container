@@ -4,6 +4,8 @@ A containerized Google Chrome development environment designed specifically for 
 
 ## 🚀 Features
 
+Note: This container only supports x86-64 Chrome as Google does not provide native builds for ARM64.
+
 - **Containerized Chrome**: Google Chrome running in a Docker container
 - **Web-based Access**: Access Chrome through any web browser via noVNC
 - **VNC Support**: Full VNC server for remote desktop access
@@ -164,4 +166,4 @@ For issues and questions:
 
 ---
 
-**Note**: This container runs Chrome with `--no-sandbox` for compatibility with containerized environments. This is safe for development and testing but should be used with caution in production environments. 
+**Note**: This container runs Chrome with `--no-sandbox` for compatibility with containerized environments. This is safe for development and testing but should be used with caution in production environments. The container only supports x86-64 Chrome because Google does not provide native builds for ARM64.
